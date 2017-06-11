@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 4 breakpoints used for responsive design -->
+  <link rel="stylesheet" media="screen and (min-width:1000px)" href="css/styles_1000.css">
+  <link rel="stylesheet" media="screen and (min-width:700px) and (max-width:1000px)" href="css/styles_700.css">
+  <link rel="stylesheet" media="screen and (max-width:700px)" href="css/styles_350to700.css">
+  <link rel="stylesheet" media="screen and (max-width:350px)" href="css/styles_350.css">
+
+<!-- imports and scripts for Polymer compoenents, core-tooltip component is used here to show tooltips on bottom navigation images  -->
+  <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+
+  <link href="elements/elements.html" rel="import">
+
+
+  <title>Kamal's Portfolio</title>
+</head>
+<body>
+
+  <div class="container">
+    <header class="header">
+      <div class="logo left">
+        <img class="logo_img" src ="img/udacity.jpg" alt="Udacity Logo">
+      </div>
+      <div class="name">
+        <h1 class="spaced">KAMAL FARHAT</h1>
+        <h3>FULL STACK GURU</h3>
+      </div>
+    </header>
+
+    <div class="main">
+      <img src="img/main_image.jpg"
+       srcset ="img/main_image.jpg 1000w,
+                img/main_image_s.jpg 500w"
+       alt="HTML Code" class="img100x100">
+    </div>
+    <nav class="footer">
+      <h2 class="light left">FEATURED WORK</h2>
+      <div class="footer_blocks_100 flex">
+        <div class="footer_blocks_33">
+          <div class="a_footer_block left">
+            <core-tooltip label="Cool Polymer Apps!" large class="width80" role="tooltip" position="right">
+              <img src="img/apps.jpg" 
+              srcset ="img/apps.jpg 1000w,
+                       img/apps_s.jpg 500w"
+              sizes = "100%"
+              alt="APPS" class="img100x100">
+            </core-tooltip>
+          </div>
+          <div class="width80 float_left">
+            <h2 class="center">
+              <a href="https://github.com/udacity/scopa">APPS</a>
+            </h2>
+          </div>
+        </div>
+        <div class="footer_blocks_33 center">
+          <div class="a_footer_block">
+            <core-tooltip label="<3 <3 Peacocks!" large class="width80" position="top">
+              <img src="img/peacock.jpg"
+              srcset ="img/peacock.jpg 1000w,
+                       img/peacock_s.jpg 500w"
+              sizes = "100%"
+              alt="APPS" class="img100x100">
+            </core-tooltip>
+          </div>
+          <div class="width80 float_center">
+            <h2 class="center">
+              <a href="https://github.com/udacity/peacock">PEACOCK</a>
+            </h2>
+          </div>
+        </div>
+        <div class="footer_blocks_33 right">
+          <div class="a_footer_block">
+            <core-tooltip label="Adventure is worthwhile!" large class="width80" position="left">
+              <img src ="img/travel.jpg" 
+               srcset ="img/travel.jpg 1000w,
+                       img/travel_s.jpg 500w"
+              sizes = "100%"
+              alt="APPS" class="img100x100">
+            </core-tooltip>
+          </div>          
+          <div class="width80 float_right">
+            <h2 class="center">
+              <a href="https://github.com/udacity/travel">TRAVEL</a>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "polymer",
+  "authors": [
+    "kamal <kamalfarhat@gmail.com>"
+  ],
+  "description": "polymer test",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.1",
+    "paper-input": "Polymer/paper-input#^0.5.6",
+    "core-tooltip": "Polymer/core-tooltip#^0.5.7",
+    "core-icon-button": "Polymer/core-icon-button#^0.5.6"
+  }
+}
