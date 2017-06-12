@@ -2,17 +2,15 @@
   .header {
   width: 60%;
   height: 5%;
-  border-width: 0 0 3px 0;
-  border-style: solid; 
-  border-color: #7d97ad;
+  border: 0 solid #7d97ad;
+  border-bottom: 3px; 
   display: flex;
   }
   
   .main {
   width: 60%;
   height: 20%;
-  padding-top: 30px; 
-  padding-bottom: 30px; 
+  padding: 30px 0 30px 0;
   }
   
   .footer {
@@ -39,17 +37,15 @@
   .header {
   width: 80%;
   height: 5%;
-  border-width: 0 0 3px 0;
-  border-style: solid; 
-  border-color: #7d97ad;
+  border: 0 solid #7d97ad;
+  border-bottom: 3px; 
   display: flex;
   }
   
   .main {
   width: 80%;
   height: 20%;
-  padding-top: 30px; 
-  padding-bottom: 30px; 
+  padding: 30px 0 30px 0;
   }
   
   .footer {
@@ -88,17 +84,15 @@
   .header {
   width: 100%;
   height: 15%;
-  border-width: 0 0 3px 0;
-  border-style: solid; 
-  border-color: #7d97ad;
+  border: 0 solid #7d97ad;
+  border-bottom: 3px; 
   display: flex;
   }
   
   .main {
   width: 100%;
   height: 55%;
-  padding-top: 30px; 
-  padding-bottom: 30px; 
+  padding: 30px 0 30px 0;
   }
   
   .footer {
@@ -137,17 +131,15 @@
   .header {
   width: 100%;
   height: 15%;
-  border-width: 0 0 3px 0;
-  border-style: solid; 
-  border-color: #7d97ad;
+  border: 0 solid #7d97ad;
+  border-bottom: 3px; 
   display: flex;
   }
   
   .main {
   width: 100%;
   height: 55%;
-  padding-top: 30px; 
-  padding-bottom: 30px; 
+  padding: 30px 0 30px 0;
   }
   
   .footer {
